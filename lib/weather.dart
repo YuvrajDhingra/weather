@@ -1,6 +1,6 @@
 import 'networking.dart';
 import 'location.dart';
-const apiKey='d3f4806703232fa091c2c116de73fd8b';
+const apiKey='//Yourapihere';
 class WeatherModel {
   Future<dynamic> getCityWeather(String cityName) async{
     Newtworking networking = Newtworking('https://api.openweathermap.org/data/2.5/weather?q=$cityName&appid=$apiKey&units=metric');
